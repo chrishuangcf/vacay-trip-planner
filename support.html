@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f9fdff">
+  <meta name="description" content="Help and support for Vacay Trip Planner.">
+  <link rel="canonical" href="https://chrishuangcf.github.io/vacay-trip-planner/support.html">
+  <link rel="icon" href="images/app-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Support — Vacay Trip Planner</title>
+</head>
+<body class="legal-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html">
+      <img src="images/app-icon.svg" alt="" width="44" height="44">
+      <span><b>Vacay</b><small>Trip Planner</small></span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+      <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+    </button>
+    <nav id="site-nav" class="site-nav" data-nav aria-label="Main navigation">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#themes">Themes</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html" aria-current="page">Support</a>
+      <a class="nav-cta" href="https://testflight.apple.com/join/QApsMNYG">Try TestFlight</a>
+    </nav>
+  </header>
+
+  <main id="main" class="legal-main">
+    <header class="legal-hero">
+      <p class="eyebrow">We’re here to help</p>
+      <h1>Support</h1>
+      <p>Find quick answers, protect your trip data, or report a problem.</p>
+    </header>
+    <article class="legal-content">
+      <div class="support-grid">
+        <section class="support-card">
+          <span>💬</span>
+          <h2>Report a problem</h2>
+          <p>Describe what happened and include your app version, build number, iOS version, and steps to reproduce it.</p>
+          <a href="https://github.com/chrishuangcf/vacay-trip-planner/issues/new">Open a support request →</a>
+        </section>
+        <section class="support-card">
+          <span>📦</span>
+          <h2>Back up first</h2>
+          <p>Before reinstalling or resetting, open Settings → Data and reset and export a JSON backup to Files.</p>
+          <a href="#backups">Read backup guidance →</a>
+        </section>
+      </div>
+
+      <h2>Common questions</h2>
+      <div class="troubleshooting">
+        <details>
+          <summary>Notification reminders are not appearing</summary>
+          <p>Turn on “Notify me” for the reservation or activity, choose the reminder timing, and allow notifications when prompted. You can also open iOS Settings → Notifications → Vacay Trip Planner and confirm that notifications are allowed. A reservation needs a valid date and time before its reminder can be scheduled.</p>
+        </details>
+        <details>
+          <summary>Weather, exchange rates, or nearby places will not load</summary>
+          <p>Confirm that the device is online. Weather and nearby-place results also require a valid destination or saved coordinates. Core saved itinerary details continue to work offline.</p>
+        </details>
+        <details>
+          <summary>How do I import a shared itinerary?</summary>
+          <p>Open a <code>.vacaytrip</code> file from Apple Files, Mail, Messages, or another share source and choose Vacay Trip Planner. Review the trip preview before importing it. The free version may ask to replace its current trip.</p>
+        </details>
+        <details>
+          <summary>How do I install a downloadable theme?</summary>
+          <p>In the app, open Settings → Theme Presets. Paste a valid HTTPS catalog address, tap Refresh catalog, and then tap Install. You can also download a <code>.vacaytheme</code> file, tap Import theme file, and select it from Apple Files.</p>
+        </details>
+        <details>
+          <summary>How do I restore the unlimited-trips purchase?</summary>
+          <p>Open Settings → Unlimited trips and tap Restore purchase while signed into the same Apple Account used for the original purchase.</p>
+        </details>
+        <details id="backups">
+          <summary>How should I back up or restore my data?</summary>
+          <p>Open Settings → Data and reset. JSON is the complete machine-readable backup format. Markdown is useful for readable exports. Keep backup files in a private, trusted location because a full backup may contain personal trip information.</p>
+        </details>
+        <details>
+          <summary>How do I remove my information?</summary>
+          <p>Use Settings → Data and reset to clear planner data. Travel Wallet includes a separate option to remove encrypted Wallet information everywhere. Delete exported files separately from Files, cloud storage, messages, or other destinations.</p>
+        </details>
+      </div>
+
+      <h2>Before contacting support</h2>
+      <ol>
+        <li>Export a JSON backup if you can still open the app.</li>
+        <li>Note the app version and build shown under Settings → About This App.</li>
+        <li>Note your iPhone model and iOS version.</li>
+        <li>Describe the exact screen, action, and result you expected.</li>
+        <li>Do not attach passwords, payment-card numbers, identity documents, or private Wallet exports.</li>
+      </ol>
+
+      <p class="legal-note"><strong>TestFlight feedback:</strong> While testing a prerelease build, you can also send feedback through Apple’s TestFlight app and include a screenshot that does not expose private travel information.</p>
+    </article>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="index.html">
+      <img src="images/app-icon.svg" alt="" width="40" height="40">
+      <span><b>Vacay</b><small>Trip Planner</small></span>
+    </a>
+    <p>Private travel planning, beautifully organized.</p>
+    <nav aria-label="Footer"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+    <small>© <span data-year>2026</span> Vacay Trip Planner. All rights reserved.</small>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

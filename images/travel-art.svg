@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Pastel world travel illustration</title>
+  <desc id="desc">Mountains, a coastal city, a train, and an airplane in a soft pink and blue landscape.</desc>
+  <defs>
+    <linearGradient id="sky" x1="250" y1="45" x2="1320" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff9fb"/>
+      <stop offset=".48" stop-color="#dff4ff"/>
+      <stop offset="1" stop-color="#f8dce6"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="800" y1="568" x2="800" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bde5f2"/>
+      <stop offset="1" stop-color="#76bed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" rx="52" fill="url(#sky)"/>
+  <circle cx="1280" cy="194" r="102" fill="#fff" opacity=".82"/>
+  <g fill="#fff" opacity=".88">
+    <path d="M114 212c18-45 60-75 109-75 52 0 96 34 111 81 12-7 27-11 42-11 45 0 81 36 81 81H79c0-35 15-61 35-76Z"/>
+    <path d="M1009 310c16-37 51-62 92-62 45 0 82 29 95 69 11-6 23-9 36-9 38 0 69 30 69 69H979c0-28 12-51 30-67Z"/>
+  </g>
+  <path d="m0 622 231-247 124 136 177-246 258 357Z" fill="#9ccddb"/>
+  <path d="m532 622 258-357 312 357Z" fill="#7db7cb"/>
+  <path d="m231 375 48 53 34-36 42 119Z" fill="#fff" opacity=".92"/>
+  <path d="m532 622 258-357 65 75-65-17-61 66-51-25Z" fill="#fff" opacity=".9"/>
+  <path d="M0 620c250-56 487-38 710 55 273 114 570 99 890-46v271H0Z" fill="url(#sea)"/>
+  <path d="M0 759c290-75 560-57 810 53 237 104 500 104 790 1v87H0Z" fill="#62acc8" opacity=".42"/>
+  <g transform="translate(932 400)">
+    <path d="M0 279h466v99H0Z" fill="#fff" opacity=".9"/>
+    <path d="M39 108h68v171H39ZM130 36h92v243h-92ZM246 138h63v141h-63ZM332 73h95v206h-95Z" fill="#f8cedb"/>
+    <path d="M55 131h36v22H55Zm0 42h36v22H55Zm0 42h36v22H55ZM151 69h50v25h-50Zm0 45h50v25h-50Zm0 45h50v25h-50Zm0 45h50v25h-50ZM350 106h59v26h-59Zm0 47h59v26h-59Zm0 47h59v26h-59Z" fill="#6b9fb8"/>
+    <path d="M-12 279h493" stroke="#4b839f" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(212 638)">
+    <rect width="430" height="115" rx="42" fill="#fff"/>
+    <path d="M49 0h251c53 0 98 33 116 79H49Z" fill="#e8819a"/>
+    <path d="M100 20h67v42h-67Zm87 0h67v42h-67Zm87 0h67v42h-67Z" fill="#dff4ff"/>
+    <circle cx="105" cy="118" r="29" fill="#426f84"/>
+    <circle cx="339" cy="118" r="29" fill="#426f84"/>
+    <path d="M24 149h425" stroke="#47798f" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(1035 118) rotate(-8)">
+    <path d="m0 105 158-44L285 0c20-9 42 8 37 29l-17 69 110 46c20 9 21 37 2 47l-115 57-71 89c-14 18-43 8-43-15l2-90L35 160C9 149-4 129 0 105Z" fill="#508aa4"/>
+    <path d="m158 61 58 154-31 39-27-193Z" fill="#356d89" opacity=".62"/>
+  </g>
+  <g fill="#fff" opacity=".65">
+    <circle cx="143" cy="117" r="15"/>
+    <circle cx="510" cy="147" r="22"/>
+    <circle cx="1451" cy="325" r="17"/>
+  </g>
+</svg>

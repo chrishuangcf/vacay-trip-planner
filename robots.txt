@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chrishuangcf.github.io/vacay-trip-planner/sitemap.xml
