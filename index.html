@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#fff9fb">
   <meta name="description" content="Vacay Trip Planner is a private, offline-first iPhone travel organizer for itineraries, reservations, maps, weather, budgets, reminders, and memories.">
   <link rel="canonical" href="https://chrishuangcf.github.io/vacay-trip-planner/">
-  <link rel="icon" href="images/app-icon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/app-icon.png" type="image/png">
   <link rel="apple-touch-icon" href="images/app-icon.png">
   <link rel="stylesheet" href="styles.css">
   <meta property="og:type" content="website">
@@ -36,7 +36,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header" data-header>
     <a class="brand" href="#top" aria-label="Vacay Trip Planner home">
-      <img src="images/app-icon.svg" alt="" width="44" height="44">
+      <img src="images/app-icon.png" alt="" width="44" height="44">
       <span><b>Vacay</b><small>Trip Planner</small></span>
     </a>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
@@ -74,27 +74,8 @@
         <div class="sparkle sparkle-two" aria-hidden="true">✦</div>
         <div class="phone-shadow" aria-hidden="true"></div>
         <div class="phone" aria-label="Preview of Vacay Trip Planner itinerary">
-          <div class="phone-top"><span>9:41</span><i></i><span>●●●</span></div>
           <div class="phone-screen">
-            <div class="app-hero">
-              <div class="app-hero-bar"><span>KYOTO ESCAPE</span><span>•••</span></div>
-              <div><small>YOUR TRIP BEGINS IN</small><strong>12</strong><span>DAYS</span></div>
-            </div>
-            <div class="day-card">
-              <div class="day-date"><small>SEP</small><b>18</b><span>FRI</span></div>
-              <div class="day-content">
-                <span class="day-tag">ARRIVAL DAY</span>
-                <h3>Hello, Kyoto</h3>
-                <div class="mini-flight">
-                  <div><small>San Francisco</small><b>SFO</b><span>9:10 AM</span></div>
-                  <div class="mini-flight-path"><small>UA 35</small><i>✈</i><span>SEP 18</span></div>
-                  <div><small>Osaka</small><b>KIX</b><span>2:20 PM</span></div>
-                </div>
-                <div class="mini-row"><i>🏨</i><span><b>Hotel check-in</b><small>Gion · 4:00 PM</small></span></div>
-                <div class="mini-row"><i>🍜</i><span><b>Dinner in Pontocho</b><small>Reservation saved</small></span></div>
-              </div>
-            </div>
-            <div class="app-tabbar"><span>⌂<small>Home</small></span><span class="active">▣<small>Itinerary</small></span><span>⌖<small>Places</small></span><span>ⓘ<small>Info</small></span></div>
+            <img class="hero-screenshot" src="images/IMG_2543_home.png" width="1206" height="2622" fetchpriority="high" alt="Vacay Trip Planner home screen showing a Japan itinerary, flight, weather, hotel, and daily activities">
           </div>
         </div>
         <div class="floating-card weather-card" aria-hidden="true">
@@ -127,20 +108,20 @@
             <h3>Plan each day your way</h3>
             <p>Arrange activities, reservations, notes, images, and reminders in a clear day-by-day timeline that stays useful offline.</p>
           </div>
-          <div class="timeline-demo" aria-hidden="true">
-            <span><i>09:00</i><b>☕ Morning café</b></span>
-            <span><i>11:30</i><b>⛩️ Fushimi Inari</b></span>
-            <span><i>18:00</i><b>🍱 Dinner booking</b></span>
+          <div class="feature-screenshot itinerary-screenshot">
+            <img src="images/IMG_2545_other_tools.png" width="1206" height="2622" loading="lazy" alt="Itinerary screen showing a flight card, weather, travel tools, and trip tips">
           </div>
         </article>
-        <article class="feature-card feature-map" data-reveal>
-          <div class="feature-icon">⌖</div>
-          <p class="card-kicker">Apple Maps</p>
-          <h3>Discover what’s nearby</h3>
-          <p>Find restaurants, cafés, attractions, shopping, parks, transit, and more around your destination.</p>
-          <div class="map-demo" aria-hidden="true">
-            <i class="road r1"></i><i class="road r2"></i><i class="road r3"></i>
-            <span class="map-pin p1">☕</span><span class="map-pin p2">★</span><span class="map-pin p3">🍜</span>
+        <article class="feature-card feature-wide feature-map" data-reveal>
+          <div class="feature-map-copy">
+            <div class="feature-icon">⌖</div>
+            <p class="card-kicker">Apple Maps discovery</p>
+            <h3>Discover what’s nearby</h3>
+            <p>Find restaurants, cafés, attractions, shopping, parks, transit, and more around your destination.</p>
+          </div>
+          <div class="map-screenshots">
+            <img src="images/IMG_2546_map.png" width="1206" height="2622" loading="lazy" alt="Saved trip places with contact details and Apple Maps actions">
+            <img src="images/IMG_2556_map_search.png" width="1206" height="2622" loading="lazy" alt="Apple Maps discovery screen searching restaurants around Tokyo">
           </div>
         </article>
         <article class="feature-card feature-weather" data-reveal>
@@ -148,8 +129,8 @@
           <p class="card-kicker">Weather-aware</p>
           <h3>Pack for the forecast</h3>
           <p>See forecasts beside your itinerary and historical estimates when your dates are further away.</p>
-          <div class="forecast-demo" aria-hidden="true">
-            <span><small>FRI</small>☀️<b>25°</b></span><span><small>SAT</small>🌤️<b>23°</b></span><span><small>SUN</small>🌦️<b>21°</b></span>
+          <div class="feature-screenshot weather-screenshot">
+            <img src="images/IMG_2544_weather.png" width="1206" height="2622" loading="lazy" alt="Weather details showing historical daily temperature and rain estimates">
           </div>
         </article>
         <article class="feature-card feature-money" data-reveal>
@@ -182,28 +163,25 @@
       <div class="experience-grid">
         <article data-reveal>
           <span class="step-number">01</span>
-          <div class="experience-visual planning-visual" aria-hidden="true">
-            <span class="check-line checked">✓ Passport</span>
-            <span class="check-line checked">✓ Hotel booked</span>
-            <span class="check-line">○ Pack charger</span>
-            <div class="ticket-stub"><small>FLIGHT</small><b>SFO <i>✈</i> KIX</b><span>SEP 18 · 09:10</span></div>
+          <div class="experience-visual planning-visual">
+            <img class="story-screenshot" src="images/IMG_2549_packing_list.png" width="1206" height="2622" loading="lazy" alt="Trip packing checklist organized by category">
           </div>
           <h3>Plan with confidence</h3>
           <p>Bring bookings, checklists, budgets, transportation, places, and useful apps into one flexible plan.</p>
         </article>
         <article data-reveal>
           <span class="step-number">02</span>
-          <div class="experience-visual travel-visual" aria-hidden="true">
-            <img src="images/travel-art.svg" alt="">
-            <span class="travel-location">📍 Arashiyama, Kyoto</span>
+          <div class="experience-visual travel-visual">
+            <img class="story-screenshot" src="images/IMG_2543_home.png" width="1206" height="2622" loading="lazy" alt="Active trip dashboard with flight, weather, hotel, and itinerary details">
           </div>
           <h3>Travel without the scramble</h3>
           <p>Open today’s schedule, check details, navigate to saved places, and receive reminders right when you need them.</p>
         </article>
         <article data-reveal>
           <span class="step-number">03</span>
-          <div class="experience-visual memory-visual" aria-hidden="true">
-            <div class="postcard"><div class="postcard-art">✦<span>memories</span></div><b>Wish you were here!</b><small>Kyoto · September 2026</small></div>
+          <div class="experience-visual memory-visual">
+            <img class="diary-screen" src="images/IMG_2560_diary.png" width="1206" height="2622" loading="lazy" alt="Private diary entry with trip photos and location">
+            <img class="postcard-screen" src="images/IMG_2559_share_epostcard.png" width="1206" height="2622" loading="lazy" alt="Customizable travel postcard ready to share">
           </div>
           <h3>Keep the memories</h3>
           <p>Save private diary entries with photos, time, and location, then turn favorite moments into shareable postcards.</p>
@@ -211,28 +189,20 @@
       </div>
     </section>
 
-    <section id="themes" class="section themes-section" data-theme-showcase="solo">
+    <section id="themes" class="section themes-section">
       <div class="themes-copy" data-reveal>
         <p class="eyebrow">Make it feel like your trip</p>
         <h2>A planner with a little <em>personality.</em></h2>
         <p>Choose a built-in visual style or install downloadable theme packages from Files and secure HTTPS catalogs.</p>
-        <div class="theme-picker" role="group" aria-label="Preview visual themes">
-          <button class="active" type="button" data-theme-choice="solo"><i></i>Solo</button>
-          <button type="button" data-theme-choice="beach"><i></i>Beach</button>
-          <button type="button" data-theme-choice="minimal"><i></i>Minimal</button>
-          <button type="button" data-theme-choice="cat"><i></i>Cat</button>
+        <div class="theme-benefits">
+          <span>🎨 Built-in presets</span>
+          <span>🖼️ Destination artwork</span>
+          <span>☁️ Downloadable packages</span>
         </div>
         <p class="theme-note">Theme packages can be installed, updated, exported, shared, or removed at any time.</p>
       </div>
-      <div class="theme-preview-phone" data-reveal aria-live="polite">
-        <div class="theme-preview-header">
-          <small data-theme-label>SOLO JOURNEY</small>
-          <strong>8</strong><span>DAYS TO GO</span>
-        </div>
-        <div class="theme-preview-card">
-          <i data-theme-emoji>🧭</i><div><small>TODAY</small><b>Explore the city</b><span>Museum · Lunch · Riverside walk</span></div>
-        </div>
-        <div class="theme-preview-tip"><span>✦</span><p><b>TRAVEL TIP</b><br>Leave room for an unexpected favorite.</p></div>
+      <div class="feature-screenshot theme-editor-screenshot" data-reveal>
+        <img src="images/IMG_2550_editor.png" width="1206" height="2622" loading="lazy" alt="Trip editor showing customizable dates, Cat theme selection, and destination artwork">
       </div>
     </section>
 
@@ -240,6 +210,16 @@
       <div class="section-heading centered" data-reveal>
         <p class="eyebrow">The thoughtful details</p>
         <h2>Small tools. <em>Big relief.</em></h2>
+      </div>
+      <div class="tools-screenshots" data-reveal>
+        <figure>
+          <img src="images/IMG_2545_other_tools.png" width="1206" height="2622" loading="lazy" alt="Itinerary showing flight, weather, map, transport, budget, and photo spot tools">
+          <figcaption><b>Everything within reach</b><span>Jump from today’s plans to the tools that keep your trip moving.</span></figcaption>
+        </figure>
+        <figure>
+          <img src="images/IMG_2547_budget_transport.png" width="1206" height="2622" loading="lazy" alt="Transportation and per-person budget planning tables">
+          <figcaption><b>Practical planning built in</b><span>Keep routes, travel times, fares, and budgets clear in both currencies.</span></figcaption>
+        </figure>
       </div>
       <div class="tool-chips" data-reveal>
         <span>✈ Detailed flight cards</span><span>🏨 Hotel reservations</span><span>🔔 Event reminders</span>
@@ -249,14 +229,28 @@
       </div>
     </section>
 
-    <section class="section privacy-callout" data-reveal>
-      <div class="privacy-mark">🔒</div>
-      <div>
+    <section class="section privacy-callout privacy-showcase" data-reveal>
+      <div class="privacy-callout-copy">
+        <div class="privacy-mark">🔒</div>
         <p class="eyebrow">Built for private journeys</p>
         <h2>No account. No ads.<br><em>No travel profile.</em></h2>
         <p>Your itinerary is not uploaded to a Vacay Trip Planner account or advertising service. Optional online tools only receive the information needed to answer your request.</p>
+        <a class="button button-secondary" href="privacy.html">Understand your privacy</a>
       </div>
-      <a class="button button-secondary" href="privacy.html">Understand your privacy</a>
+      <div class="privacy-screenshots">
+        <figure>
+          <img src="images/IMG_2551_secure_wallet.png" width="1206" height="2622" loading="lazy" alt="Encrypted Travel Wallet unlock screen with Face ID support">
+          <figcaption>Encrypted Wallet</figcaption>
+        </figure>
+        <figure>
+          <img src="images/IMG_2560_diary.png" width="1206" height="2622" loading="lazy" alt="Private trip diary entry with photos and an attached location">
+          <figcaption>Private Trip Diary</figcaption>
+        </figure>
+        <figure>
+          <img src="images/IMG_2559_share_epostcard.png" width="1206" height="2622" loading="lazy" alt="Diary postcard sharing screen with customizable content">
+          <figcaption>Shareable Postcards</figcaption>
+        </figure>
+      </div>
     </section>
 
     <section class="section faq-section">
@@ -289,7 +283,7 @@
     </section>
 
     <section class="closing-cta">
-      <img src="images/app-icon.svg" alt="Vacay Trip Planner icon" width="92" height="92" data-reveal>
+      <img src="images/app-icon.png" alt="Vacay Trip Planner icon" width="92" height="92" data-reveal>
       <div data-reveal>
         <p class="eyebrow">Your next trip starts here</p>
         <h2>Plan less frantically.<br><em>Travel more freely.</em></h2>
@@ -305,7 +299,7 @@
 
   <footer>
     <a class="brand footer-brand" href="#top">
-      <img src="images/app-icon.svg" alt="" width="40" height="40">
+      <img src="images/app-icon.png" alt="" width="40" height="40">
       <span><b>Vacay</b><small>Trip Planner</small></span>
     </a>
     <p>Private travel planning, beautifully organized.</p>

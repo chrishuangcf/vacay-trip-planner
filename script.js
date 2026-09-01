@@ -67,64 +67,6 @@
     revealItems.forEach((item) => observer.observe(item));
   }
 
-  const themeData = {
-    solo: {
-      main: "#496775",
-      soft: "#e3edf0",
-      background: "#f4f1e9",
-      label: "SOLO JOURNEY",
-      emoji: "🧭"
-    },
-    beach: {
-      main: "#267fa2",
-      soft: "#dff3f8",
-      background: "#edf9fc",
-      label: "COASTAL ESCAPE",
-      emoji: "🏖️"
-    },
-    minimal: {
-      main: "#59616c",
-      soft: "#e9edf1",
-      background: "#f6f7f8",
-      label: "MINIMAL GETAWAY",
-      emoji: "✦"
-    },
-    cat: {
-      main: "#b45f4b",
-      soft: "#f7e6d7",
-      background: "#fff6e9",
-      label: "COZY ADVENTURE",
-      emoji: "🐾"
-    }
-  };
-
-  const showcase = document.querySelector("[data-theme-showcase]");
-  if (showcase) {
-    const label = showcase.querySelector("[data-theme-label]");
-    const emoji = showcase.querySelector("[data-theme-emoji]");
-    const themeButtons = showcase.querySelectorAll("[data-theme-choice]");
-
-    const selectTheme = (key) => {
-      const theme = themeData[key] || themeData.solo;
-      showcase.dataset.themeShowcase = key;
-      showcase.style.setProperty("--showcase-main", theme.main);
-      showcase.style.setProperty("--showcase-soft", theme.soft);
-      showcase.style.setProperty("--showcase-bg", theme.background);
-      if (label) label.textContent = theme.label;
-      if (emoji) emoji.textContent = theme.emoji;
-      themeButtons.forEach((button) => {
-        const active = button.dataset.themeChoice === key;
-        button.classList.toggle("active", active);
-        button.setAttribute("aria-pressed", String(active));
-      });
-    };
-
-    themeButtons.forEach((button) => {
-      button.addEventListener("click", () => selectTheme(button.dataset.themeChoice));
-    });
-    selectTheme(showcase.dataset.themeShowcase || "solo");
-  }
-
   document.querySelectorAll(".faq-list details").forEach((details) => {
     details.addEventListener("toggle", () => {
       if (!details.open) return;
