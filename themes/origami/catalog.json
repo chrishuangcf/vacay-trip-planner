@@ -1,0 +1,25 @@
+{
+  "format": "com.vacaytrip.theme-catalog",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "com.vacaytrip.theme.origami",
+      "themeKey": "origami",
+      "version": "1.0.0",
+      "name": {
+        "en": "Origami Journeys",
+        "ja": "折り紙の旅",
+        "vi": "Hành trình Origami",
+        "zh-Hant": "摺紙之旅",
+        "zh-Hans": "折纸之旅",
+        "ru": "Оригами-путешествия",
+        "es": "Viajes de origami",
+        "it": "Viaggi origami",
+        "fr": "Voyages en origami"
+      },
+      "downloadURL": "origami-1.0.0.vacaytheme",
+      "sha256": "6a601ed0ebe8d641e850777a98dec76e60fb03383d7f25fa15d8872efebcd78a",
+      "size": 18694566
+    }
+  ]
+}
