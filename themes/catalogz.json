@@ -17,9 +17,47 @@
         "it": "Chiikawa ちいかわ",
         "fr": "Chiikawa ちいかわ"
       },
-      "downloadURL": "chikawa-1.0.0.vacaytheme",
+      "downloadURL": "chiikawa/chikawa-1.0.0.vacaytheme",
       "sha256": "4ada7b9807db55585af78982e72cb3c48b33007d4987a55ce2a738352aa4c67b",
       "size": 20664121
+    },
+    {
+      "id": "com.vacaytrip.theme.origami",
+      "themeKey": "origami",
+      "version": "1.0.0",
+      "name": {
+        "en": "Origami Journeys",
+        "ja": "折り紙の旅",
+        "vi": "Hành trình Origami",
+        "zh-Hant": "摺紙之旅",
+        "zh-Hans": "折纸之旅",
+        "ru": "Оригами-путешествия",
+        "es": "Viajes de origami",
+        "it": "Viaggi origami",
+        "fr": "Voyages en origami"
+      },
+      "downloadURL": "origami/origami-1.0.0.vacaytheme",
+      "sha256": "6a601ed0ebe8d641e850777a98dec76e60fb03383d7f25fa15d8872efebcd78a",
+      "size": 18694566
+    },
+    {
+      "id": "com.vacaytrip.theme.enamel-pin",
+      "themeKey": "enamel-pin",
+      "version": "1.0.0",
+      "name": {
+        "en": "Enamel Pin Collection",
+        "ja": "旅のピンバッジ",
+        "vi": "Bộ sưu tập huy hiệu du lịch",
+        "zh-Hant": "旅行琺瑯徽章",
+        "zh-Hans": "旅行珐琅徽章",
+        "ru": "Коллекция эмалевых значков",
+        "es": "Colección de pines esmaltados",
+        "it": "Collezione di spille smaltate",
+        "fr": "Collection de pins émaillés"
+      },
+      "downloadURL": "enamel_pin/enamel-pin-1.0.0.vacaytheme",
+      "sha256": "ca352fdb70d706b5b0e07738b7e135a3d6cc43ce4d69eb55a4d4ea00c7178eff",
+      "size": 10944680
     }
   ]
 }
